@@ -10,7 +10,7 @@
 #include "KeypadShield.h"
 #include "Wire.h"
 
-KeypadShield::KeypadShield() : twi_address_(50) {
+KeypadShield::KeypadShield() : twi_address_(KeypadShield::DEFAULT_ADDRESS) {
 	init();
 }
 

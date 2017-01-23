@@ -12,7 +12,13 @@
 class KeypadShield
 {
  public:
-	// Public constructor that uses the default shield TWI address of 50.
+	// Default TWI address of the Keypad Shield hardware. The shield's
+	// 7-bit address is 0x32 (by default), or 0x75 if the OPT1 jumper
+	// is shorted. Other addresses are possible only by reflashing the
+	// shield's firmware.
+	const uint8_t DEFAULT_ADDRESS = 0x32;
+
+	// Public constructor that uses the default shield TWI address of 0x32.
 	KeypadShield();
 
 	// Public constructor that takes a TWI address as an argument.
