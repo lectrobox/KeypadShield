@@ -3,6 +3,7 @@
 KeypadShield keypad;
 
 void setup() {
+  keypad.begin();
   Serial.begin(9600);
   Serial.print("Starting keypad monitor!\n");
 }

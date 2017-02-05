@@ -1,6 +1,6 @@
 //
 // Lectrobox Keypad Shield
-// Arduino library v1.0, Feb 2017
+// Arduino library v1.1, Feb 2017
 // This code is in the public domain. Enjoy!
 //
 // info@lectrobox.com
@@ -21,8 +21,12 @@ class KeypadShield
 	// Public constructor that uses the default shield TWI address of 0x32.
 	KeypadShield();
 
-	// Public constructor that takes a TWI address as an argument.
+	// Public constructor that takes a 7-bit TWI address as an argument.
 	KeypadShield(uint8_t address);
+
+	// Start function that must be called before getNextKeypress().
+	// Most sketches should call it in setup().
+	void begin();
 
 	// Get a single character from the keypad. Returns 0 if no character
 	// is available. Otherwise, returns the next character typed. Digits
@@ -31,9 +35,7 @@ class KeypadShield
 	char getNextKeypress();
 
  private:
-	void init();
-
-	// TWI address of the shield.
+	// 7-bit TWI address of the shield.
 	const uint8_t twi_address_;
 };
   

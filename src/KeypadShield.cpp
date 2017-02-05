@@ -10,15 +10,11 @@
 #include "KeypadShield.h"
 #include "Wire.h"
 
-KeypadShield::KeypadShield() : twi_address_(KeypadShield::DEFAULT_ADDRESS) {
-	init();
-}
+KeypadShield::KeypadShield() : twi_address_(KeypadShield::DEFAULT_ADDRESS) {}
 
-KeypadShield::KeypadShield(uint8_t address) : twi_address_(address) {
-	init();
-}
+KeypadShield::KeypadShield(uint8_t address) : twi_address_(address) {}
 
-void KeypadShield::init() {
+void KeypadShield::begin() {
 	Wire.begin();
 }
 
