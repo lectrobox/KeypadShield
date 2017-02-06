@@ -11,11 +11,11 @@ RJ45 interface adapter, can be purchased at
 [Amazon](http://www.amazon.com).
 
 ##Supported Shields
-The shield and library have been tested and are known to work on a variety of
-Arduino hardware:
+The shield and library have been tested and are known to work on a
+variety of Arduino hardware:
 
 ###AVR-based Arduinos and clones:
-* Arduino Uno
+* Arduino Uno R3
 * Elegoo Uno R3
 * Arduino Leonardo
 
@@ -27,13 +27,14 @@ Arduino hardware:
 
 ##Unsupported Shields
 
-Note that the shield *does not support* older Arduinos such as the Diecimila,
-Duemilanove, and other clones that do not have SDA and SCL pins as part of the
-digital pin block.
+Note that the shield *does not support* older (pre-R3) Arduinos such
+as the Uno R2, Uno R1, Diecimila, Duemilanove, and others that do not
+have SDA and SCL pins as part of the digital pin block.
 
 ##Documentation
 
-The small example program demonstrates how to use the Shield library. The basic steps are:
+The small example program demonstrates how to use the Shield
+library. The basic steps are:
 
 * \#include "KeypadShield.h" in your sketch
 
@@ -41,7 +42,8 @@ The small example program demonstrates how to use the Shield library. The basic 
 
 * Call keypadShield.begin() in setup()
 
-* Call keypadShield.getNextKeypress() to query the shield for a recent keypress
+* Call keypadShield.getNextKeypress() to query the shield for a recent
+  keypress
 
 * getNextKeypress() will return 0 if no keys have been pressed, or the
   character that was pressed. Possible values are the characters '0'
