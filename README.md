@@ -10,7 +10,7 @@ The hardware package, which includes a shield, a keypad, and a small
 RJ45 interface adapter, can be purchased at
 [Amazon](http://www.amazon.com).
 
-##Supported Shields
+##Supported Arduinos
 The shield and library have been tested and are known to work on a
 variety of Arduino hardware:
 
@@ -25,7 +25,7 @@ variety of Arduino hardware:
 ###Intel Curie Arduinos:
 * Arduino 101
 
-##Unsupported Shields
+##Unsupported Arduinos
 
 Note that the shield *does not support* older (pre-R3) Arduinos such
 as the Uno R2, Uno R1, Diecimila, Duemilanove, and others that do not
