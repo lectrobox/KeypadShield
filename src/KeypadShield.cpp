@@ -1,6 +1,6 @@
 //
 // Lectrobox Keypad Shield
-// Arduino library v1.0, Feb 2017
+// Arduino library v1.1, Feb 2017
 // This code is in the public domain. Enjoy!
 //
 // info@lectrobox.com
