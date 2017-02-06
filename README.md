@@ -35,7 +35,7 @@ digital pin block.
 
 The small example program demonstrates how to use the Shield library. The basic steps are:
 
-* #include "KeypadShield.h" in your sketch
+* \#include "KeypadShield.h" in your sketch
 
 * Declare a KeypadShield object
 
