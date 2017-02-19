@@ -1,14 +1,16 @@
 # Lectrobox Keypad Shield
 
 This is the software library for the [Lectrobox Keypad
-Shield](http://www.lectrobox.com/keypad), making it simple for your
-sketches to access the keypresses from the included 16-key keypad. The
-keypad can either be mounted directly on the Arduino or connected
-remotely using a standard Ethernet cable. The shield only uses the SDA
-and SCL pins on the Arduino, and does not consume any digital inputs.
-The hardware package, which includes a shield, a keypad, and a small
-RJ45 interface adapter, can be purchased at
-[Amazon](http://www.amazon.com).
+Shield](http://www.lectrobox.com/keypad), a combination of hardware
+and software that makes it simple for your sketches to access the
+keypresses from the included 16-key keypad. The keypad can either be
+mounted directly on the Arduino or connected remotely using a standard
+Ethernet cable. The shield communicates with the Arduino via TWI,
+using only the SDA and SCL pins, and does not consume any digital
+inputs. It's compatible with both 8-bit and 32-bit, 5v and 3.3v
+Arduinos. The hardware package, which includes a shield, a keypad, and
+a small RJ45 interface adapter for remote keypad mounting, can be
+purchased at [Amazon](http://www.amazon.com).
 
 ##Supported Arduinos
 The shield and library have been tested and are known to work on a
