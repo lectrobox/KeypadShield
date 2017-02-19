@@ -1,6 +1,6 @@
 //
 // Lectrobox Keypad Shield
-// Arduino library v1.1, Feb 2017
+// Arduino library v1.2, Feb 2017
 // This code is in the public domain. Enjoy!
 //
 // info@lectrobox.com
@@ -10,12 +10,15 @@
 #include "KeypadShield.h"
 #include "Wire.h"
 
-KeypadShield::KeypadShield() : twi_address_(KeypadShield::DEFAULT_ADDRESS) {}
-
-KeypadShield::KeypadShield(uint8_t address) : twi_address_(address) {}
-
-void KeypadShield::begin() {
+// Start the keypad shield using an explicit TWI address.
+void KeypadShield::begin(uint8_t twi_address) {
+	twi_address_ = twi_address;
 	Wire.begin();
+}
+
+// Start the keypad shield using a the default TWI address.
+void KeypadShield::begin() {
+	begin(DEFAULT_TWI_ADDRESS);
 }
 
 char KeypadShield::getNextKeypress() {
