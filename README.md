@@ -16,24 +16,24 @@ purchased at [Amazon](https://www.amazon.com/gp/product/B06XGSYP1C/ref=as_li_qf_
 The shield and library have been tested and are known to work on a
 variety of Arduino hardware:
 
-###AVR-based Arduinos and clones:
+### AVR-based Arduinos and clones:
 * Arduino Uno R3
 * Elegoo Uno R3
 * Arduino Leonardo
 
-###32-bit Arduinos:
+### 32-bit Arduinos:
 * Arduino Zero
 
-###Intel Curie Arduinos:
+### Intel Curie Arduinos:
 * Arduino 101
 
-##Unsupported Arduinos
+## Unsupported Arduinos
 
 Note that the shield *does not support* older (pre-R3) Arduinos such
 as the Uno R2, Uno R1, Diecimila, Duemilanove, and others that do not
 have SDA and SCL pins as part of the digital pin block.
 
-##Documentation
+## Documentation
 
 The small example program demonstrates how to use the Shield
 library. The basic steps are:
