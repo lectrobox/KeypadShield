@@ -1,16 +1,18 @@
-# Lectrobox Keypad Shield
+# Lectrobox Arduino Keypad Shield with 16-Button Matrix Keypad
 
-This is the software library for the [Lectrobox Keypad
+This is the software library for Lectrobox's [Arduino Keypad
 Shield](http://www.lectrobox.com/keypad), a combination of hardware
-and software that makes it simple for your sketches to access the
-keypresses from the included 16-key keypad. The keypad can either be
-mounted directly on the Arduino or connected remotely using a standard
-Ethernet cable. The shield communicates with the Arduino via TWI,
-using only the SDA and SCL pins, and does not consume any digital
-inputs. It's compatible with both 8-bit and 32-bit, 5v and 3.3v
-Arduinos. The hardware package, which includes a shield, a keypad, and
-a small RJ45 interface adapter for remote keypad mounting, can be
-purchased at [Amazon](https://www.amazon.com/gp/product/B06XGSYP1C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XGSYP1C&linkCode=as2&tag=lectrobox-20).
+and software that makes it easy to integrate a 16-button keypad into
+your Arduino sketches. The keypad, shield, and mounting hardware are
+all designed to work together for a true plug-and-play solution. The
+keypad can either be mounted directly on the Arduino or connected
+remotely using a standard Ethernet cable. The shield communicates with
+the Arduino via TWI, using only the SDA and SCL pins, and does not
+consume any digital inputs. It's compatible with both 8-bit and
+32-bit, 5v and 3.3v Arduinos. The hardware package, which includes a
+shield, a keypad, and a small RJ45 interface adapter for remote keypad
+mounting, can be purchased at
+[Amazon](https://www.amazon.com/gp/product/B06XGSYP1C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XGSYP1C&linkCode=as2&tag=lectrobox-20).
 
 ## Supported Arduinos
 The shield and library have been tested and are known to work on a
