@@ -12,7 +12,7 @@ Arduinos. The hardware package, which includes a shield, a keypad, and
 a small RJ45 interface adapter for remote keypad mounting, can be
 purchased at [Amazon](https://www.amazon.com/gp/product/B06XGSYP1C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XGSYP1C&linkCode=as2&tag=lectrobox-20).
 
-##Supported Arduinos
+## Supported Arduinos
 The shield and library have been tested and are known to work on a
 variety of Arduino hardware:
 
